@@ -7,6 +7,9 @@
  * Description: blinking a led at PIN 4 (GPIO1)
  * (pin 4 is connected to a 270 ohm resistor that is connected to the negative pin of the led
  * the positive pin of the led is connected to the positive power supply
+ *
+ *new problem arised: we can't convert it into assembly anymore and my assembly code did not work on this controller
+ *so we have to grind out the assembly for this controller again or switch to avr microcontrollers and use linux
  */
 
 // CONFIG
