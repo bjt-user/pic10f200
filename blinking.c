@@ -25,9 +25,9 @@ void main(void) {
     TRIS = 0b1101;  //0 means output, so GP1 is output
 
     while(1) {        
-        GPIO = 0b0000;  //0 means low, so it lights up
+        GPIO = 0b00000000;  //0 means low, so it lights up
         __delay_ms(1000);
-        GPIO = 0b0010;  //1 means high, so it does not light
+        GPIO = 0b00000010;  //1 means high, so it does not light
         __delay_ms(1000);
     }
     return;
